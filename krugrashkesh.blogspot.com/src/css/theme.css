@@ -56,3 +56,16 @@ img,video,audio{float:none;margin:auto;overflow:auto;display:block;}
 img,video{width:auto;max-width:100%;height:auto;max-height:95vh;}
 audio{width:100%;max-width:400px;}
 source{}
+
+#header{background-color:transparent;background-image:none;position:fixed;top:0%;left:0%;padding:30px 20px;}
+#header-symbol-container{border:1.5px solid rgb(255,255,255);border-radius:5px;width:45px;padding:5px;float:left;}
+#header-symbol-container:hover{border-radius:0px 7px 0px 7px;}
+
+#header-subscribe-container{width:100px;float:right;padding:5px;}
+#header-subscribe-button{color:rgb(255,255,255);background-color:transparent;border:1.5px solid rgb(255,255,255);border-radius:5px;width:100%;padding:5px;}
+#header-subscribe-button:hover{color:rgb(70,70,70);background-color:rgb(255,255,255);}
+
+#header-search-container{max-width:500px;float:right;padding:5px 15px 5px 15px;display:flex;flex-direction:row;}
+#header-search-text{color:rgb(255,255,255);background-color:transparent;border:1.5px solid rgb(255,255,255);border-radius:5px 0px 0px 5px;width:auto;padding:5px;flex-grow:9;border-right:none;}
+#header-search-button{color:rgb(255,255,255);background-color:transparent;border:1.5px solid rgb(255,255,255);border-radius:0px 5px 5px 0px;width:auto;padding:5px;flex-grow:1;border-left:none;}
+#header-search-button:hover{color:rgb(70,70,70);background-color:rgb(255,255,255);}
